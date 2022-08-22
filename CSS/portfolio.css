@@ -319,7 +319,7 @@ About */
   .project{
     /* display: table-cell; */
     vertical-align: middle;
-    background-image: url("/Images Portfolio/bg2.png ");
+    background-image: url("../Images Portfolio/bg2.png");
     background-color: black;
     color: white;
     padding-top: 40px ;
