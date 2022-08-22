@@ -303,6 +303,18 @@ About */
     align-items: center;
   }
 
+  .web2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #DD2FA3;
+   
+  }
+
+  .subP{
+    text-align: center;
+  }
 
   .project{
     /* display: table-cell; */
@@ -310,12 +322,27 @@ About */
     background-image: url("/Images Portfolio/bg2.png ");
     background-color: black;
     color: white;
-    margin-top: auto;
+    padding-top: 40px ;
+    /* margin-top: auto; */
     /* width: 100vw;
     overflow-x: hidden;
     margin: 0;
     padding: 0; */
     /* border: solid white; */
+  }
+
+  .portfolio{
+    margin-top: 30px;
+    width: 500px;
+    height: auto;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 20px black,
+                -10px -10px 20px white;
+
+  }
+
+  .title{
+    font-size: small;
   }
   
   IMG.displayed {
@@ -329,6 +356,8 @@ About */
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    box-shadow: 10px 10px 15px white,
+                -10px -10px 15px black;
   
   }
   
@@ -491,8 +520,8 @@ main{
 /* shadow form */
 .portfolio-form{  
   /* padding: 25px 20px 10px 20px; */
-  box-shadow:  1px 2px 5px #FF66CC, 
-             -1px -2px 5px #FF66CC;
+  box-shadow:  0px 0px 5px #FF66CC, 
+             -0px -0px 5px #FF66CC;
   /* border: 1px solid black; */
   width: 500px;
   display: flex;
@@ -524,7 +553,7 @@ input{
   font-size:110%;
   outline:none;
   font-family:Spartan, sans-serif;
-  border: 3px solid #FF66CC;
+  border: 2px solid ;
   color: #FF66CC;
   resize: none;
 }
@@ -533,7 +562,7 @@ input{
   height: 200px;
   width: 445px;
   resize: none;
-  border: solid 3px #FF66CC;
+  border: 2px solid #FF66CC;
   color: #FF66CC;
   outline:none;
   
